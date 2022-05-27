@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/altura_img_250"
+            android:contentDescription="@string/descricao_img"
+            android:scaleType="centerCrop"
+            android:src="@drawable/soad" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nome_musica"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_24"
+            android:layout_marginTop="@dimen/size_margin_12"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/letra_musica"
+            android:textColor="@color/black"
+            android:textSize="@dimen/size_text_14"
+            android:layout_margin="@dimen/size_margin_14"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>
