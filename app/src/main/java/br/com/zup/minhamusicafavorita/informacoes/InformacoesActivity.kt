@@ -2,6 +2,7 @@ package br.com.zup.minhamusicafavorita.informacoes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.MenuItem
 import br.com.zup.minhamusicafavorita.home.MainActivity
 import br.com.zup.minhamusicafavorita.R
 import br.com.zup.minhamusicafavorita.databinding.ActivityInformacoesBinding
@@ -35,5 +36,12 @@ class InformacoesActivity : AppCompatActivity() {
             tab.text = listaTitulos[posicao]
         }.attach()
 
+    }
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        if (item.itemId == android.R.id.home) {
+            this.finish()
+            return true
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
