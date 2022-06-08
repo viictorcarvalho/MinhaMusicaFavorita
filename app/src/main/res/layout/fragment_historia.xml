@@ -27,7 +27,7 @@
             android:text="@string/historia_banda"
             android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="@dimen/size_text_14"
+            android:textSize="@dimen/size_text_16"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

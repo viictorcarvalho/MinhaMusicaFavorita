@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">Minha música favorita</string>
-    <string name="detalhe_name">Detalhes</string>
+    <string name="detalhe_album">Detalhes dos álbuns:</string>
     <string name="informacoes_name">System Of A Down</string>
     <string name="nome_musica">Question!</string>
     <string name="descricao_img">Quatro homens de origem armenia que são integrantes da banda System Of A Down</string>
@@ -24,5 +24,6 @@
         O System of a Down usa uma grande variedade de instrumentos, incluindo guitarra barítona, mandolins elétricos, sitar, violões de doze cordas entre outros instrumentos orientais. Suas principais influências são as bandas mais antigas de rock alternativo, como por exemplo Nomeansno, Primus e principalmente Faith No More, no qual muitas músicas tem um estilo vocal e andamento/peso parecidos, o que indiretamente também os levou a terem influências do heavy metal, punk rock, jazz, fusion, música folclórica da Armênia, rock clássico e industrial.
 
         A banda alcançou enorme sucesso comercial com o lançamento de cinco álbuns de estúdio, dos quais três estrearam no número um da Billboard 200. Além disso, o grupo já foi indicado para quatro Grammy Awards, e sua canção "B.Y.O.B." venceu o prêmio de Melhor Performance Hard Rock em 2006. No mesmo ano, a banda entrou em hiato que durou até 2010; desde então, a banda tem se apresentado ao vivo com pouca frequência. Além de duas novas canções em 2020 ("Protect the Land" e "Genocidal Humanoidz"),[1] System of a Down não lançou um álbum completo desde os álbuns Mezmerize e Hypnotize em 2005. Até hoje, já venderam cerca de 40 milhões de discos mundialmente, enquanto dois de seus singles "Aerials" e "Hypnotize" alcançaram o número um na parada de canções alternativas da Billboard."</string>
+    <string name="lista_albuns">Lista de álbuns</string>
 
 </resources>

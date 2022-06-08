@@ -13,6 +13,6 @@ class DetalheActivity : AppCompatActivity() {
         binding = ActivityDetalheBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        supportActionBar?.setTitle(R.string.detalhe_name)
+        supportActionBar?.setTitle(R.string.detalhe_album)
     }
 }
