@@ -1,72 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".informacoes.albuns.AlbunsFragment">
+    tools:context=".informacoes.albuns.AlbumFragment">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvListaAlbuns"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/tvListaAlbuns"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/lista_albuns"
-            android:textColor="@color/black"
-            android:textSize="30sp"
-            android:textStyle="bold" />
-
-        <ImageView
-            android:id="@+id/ivSystemOf"
-            android:layout_width="170dp"
-            android:layout_height="0dp"
-            android:layout_margin="20dp"
-            android:src="@drawable/systemofadown"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <ImageView
-            android:id="@+id/toxicity"
-            android:layout_width="170dp"
-            android:layout_height="0dp"
-            android:src="@drawable/toxicity"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/ivSystemOf"
-            app:layout_constraintTop_toTopOf="@+id/ivSystemOf" />
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="170dp"
-            android:layout_height="0dp"
-            android:src="@drawable/steal"
-            app:layout_constraintEnd_toEndOf="@+id/ivSystemOf"
-            app:layout_constraintStart_toStartOf="@+id/ivSystemOf"
-            app:layout_constraintTop_toBottomOf="@+id/ivSystemOf" />
-
-        <ImageView
-            android:id="@+id/imageView5"
-            android:layout_width="170dp"
-            android:layout_height="0dp"
-            android:src="@drawable/mezmerize"
-            app:layout_constraintEnd_toEndOf="@+id/toxicity"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toEndOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/toxicity" />
-
-        <ImageView
-            android:id="@+id/imageView4"
-            android:layout_width="170dp"
-            android:layout_height="0dp"
-            android:layout_margin="20dp"
-            android:layout_marginTop="16dp"
-            android:src="@drawable/hypnotize"
-            app:layout_constraintEnd_toEndOf="@+id/imageView5"
-            app:layout_constraintHorizontal_bias="0.51"
-            app:layout_constraintStart_toStartOf="@+id/imageView2"
-            app:layout_constraintTop_toBottomOf="@+id/imageView5" />
-
-    </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

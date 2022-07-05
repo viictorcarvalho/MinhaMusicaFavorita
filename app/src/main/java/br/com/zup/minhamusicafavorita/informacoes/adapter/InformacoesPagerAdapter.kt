@@ -4,7 +4,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.Lifecycle
 import androidx.viewpager2.adapter.FragmentStateAdapter
-import br.com.zup.minhamusicafavorita.informacoes.albuns.AlbunsFragment
+import br.com.zup.minhamusicafavorita.informacoes.albuns.AlbumFragment
 import br.com.zup.minhamusicafavorita.informacoes.historia.HistoriaFragment
 
 class InformacoesPagerAdapter(
@@ -19,7 +19,7 @@ class InformacoesPagerAdapter(
     override fun createFragment(position: Int): Fragment {
         when (position) {
             0 -> return HistoriaFragment()
-            1 -> return AlbunsFragment()
+            1 -> return AlbumFragment()
         }
 
         return HistoriaFragment()
